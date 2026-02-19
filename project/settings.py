@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-2lkox!ig6&9f30*b0t%!a!ygu(hcvm2y1l=-6&jun%!q4upz(l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hemanthkumar7788.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'hemanthkumar7788.pythonanywhere.com',
+]
+
 
 
 
@@ -127,3 +132,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # settings.py
 APPEND_SLASH = False
+
